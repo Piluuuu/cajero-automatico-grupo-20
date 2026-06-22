@@ -41,7 +41,7 @@ usuarios = {
         "bloqueado": False
     },
     "29032008": {
-        "pin":       "0000",
+        "pin":       "5678",
         "nombre":    "Milena Sosa",
         "saldo":     3000.00,
         "intentos":  0,

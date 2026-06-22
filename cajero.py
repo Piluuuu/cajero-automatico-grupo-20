@@ -256,7 +256,6 @@ if __name__ == "__main__":
         datos = obtener_datos_usuario(dni_activo)
         print(f"\n  [Sistema] Sesión iniciada para DNI: {dni_activo}")
         print(f"  [Sistema] Saldo actual: $ {datos['saldo']:,.2f}")
-        print("\n  >>> Aquí se invocaría el menú principal (módulo de otro integrante) <<<")
     else:
         # Login fallido o cancelado
         print("\n  [Sistema] No se pudo iniciar sesión. Programa finalizado.")
